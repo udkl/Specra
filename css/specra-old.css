@@ -1,0 +1,385 @@
+/*
+ Copyright (c) 2008 Yahoo! Inc. All rights reserved.
+ Licensed under the Yahoo! Search BOSS Terms of Use
+ (http://info.yahoo.com/legal/us/yahoo/search/bosstos/bosstos-2317.html)
+*/
+/*=============
+==================
+=================
+===============
+*/
+body 
+{
+  background-color: #000000;
+  font-family:Segoe,"Segoe","Segoe UI",Verdana,Arial,sans-serif;
+  margin:0px;
+}
+.no-visit:hover{
+  color: #B5E3ED;
+  background-color:#3D8DA8;
+}
+
+.no-visit:active{
+  color: #E0EAED;
+}
+.no-visit{
+  color: #3D8DA8;
+  font-weight:bold;
+}  
+/*--Head*/
+#hd 
+{
+  height: 40%;
+}
+#hd .logo {
+  float: left;
+  padding : 0px 10px; 
+}
+.res
+{
+  height: 60px;
+  /*background-image:url(header_r.png);
+  background-repeat:repeat-x;*/
+  border-bottom:2px solid #3D8DA8;
+  background : #E2EBED url(../images/featurebg.png) repeat-x scroll 0 -75px;
+  padding : 20px 20px 0px 20%;
+}
+#myInput{
+	float: left;
+	width: 345px;
+	height: 24px;
+}
+#myInput2{
+	width: 300px;
+	height: 24px;
+	margin-left:22%;
+	margin-top: 5px;
+}
+
+.inp{
+	background-image:url(../images/form_bk.png);
+	background-position: top;
+	background-repeat: repeat-x;
+	color: #444444;
+	font-size: 20px;
+	font-family: "Lucida Grande",sans-serif;
+	line-height: 1.3em;
+	padding: 0px 5px 1px 5px;
+	margin: 0px 0px;
+	border: 1px solid #B3B3B3;
+	background-color: white;	
+}
+	
+#searchbutton{
+	margin: 0px 5px;
+	font-size:13px;
+	min-height:18px;
+	width:90px;
+	position:relative;
+    float: left;
+    margin-left: 370px;
+}
+#myAutoComplete{
+  width: 300px;
+  margin-top: -8px;
+}
+#myContainer{
+	margin-top: 7px;
+}
+.info{
+	height:1.3em;
+	background:#E1EBED none repeat scroll 0 0;
+	border-bottom:2px solid #3D8DA8;
+}
+.info .r{
+	margin-left:35%;
+}
+.info .c{
+	margin-left: 40%;
+	overflow:hidden;
+}
+#pan {
+	overflow:hidden;
+	background:#FFFFFF;
+	border-bottom:2px solid #3D8DA8;
+}
+#pan .cel
+{
+ width:28%;
+ border-right:2px solid #3D8DA8;
+ float:left;
+}
+#pan .cel1
+{
+ width:340px;
+ border-right:2px solid #3D8DA8;
+ float:left;
+}
+#slider-bg,#slider-bg1,#slider-bg2 {
+    background:url(http://yui.yahooapis.com/2.7.0/build/slider/assets/bg-fader.gif) 5px 0 no-repeat;
+}
+#slider-converted-value ,#slider-converted-value1,#slider-converted-value2{
+	margin-left:210px;
+}
+
+
+/*--End Head*/
+
+
+/*--Body*/
+#bd {
+    background-color: #F5F4EE;
+	padding : 10px;
+	position: relative;
+}	
+.engines{
+	width:15%;
+	margin-top:20px;
+}
+.res-td{
+ padding:0.1em;
+}
+
+
+a:link .tab {
+  text-decoration: none;
+  color: #FFFFFF
+}
+
+a:visited .tab {
+  text-decoration: none;
+  color: #FFFFFF
+}
+.engines .eng{
+	float:left;
+}
+th,td{
+ border : 0px;
+}
+.result {
+	margin : 1em 0 0 2%;
+	max-width: 42em;	
+}
+.res-t {
+  font-size : medium;
+  margin-bottom: 2px;
+}
+.res-u {
+	max-width: 42em;
+    margin-bottom: 2px;
+}
+.res-vu {
+	color:#008000;
+}
+.box{
+	border:2px solid #3D8DA8;
+	padding:0.2em;
+}
+/*--End Body*/
+
+/*--Foot*/
+#ft{
+    background-color: #F5F4EE;
+}
+.center{
+	margin-left:22%;
+}
+/*--End Foot*/
+.clear {
+  clear: both;
+}
+
+img {
+  border: none;
+}
+
+
+
+.tabs {
+  padding-top: 15px;
+  width:100%;
+}
+
+.tabs a {
+  text-decoration: none;
+}
+
+.tab {
+  font-size: 11px;
+  font-weight: bold;
+  padding: 5px 10px 5px 10px;
+  background-color: #1B617A;
+  color: #FFFFFF;
+  float: left;
+  margin-left: 1px;
+}
+
+#totalhits {
+  float: right;
+  color: #FFFFFF;
+}
+
+
+
+/*=============
+==================
+=================
+===============
+*/
+.sel {
+  background-color: #E0EAED;
+}
+
+a:link .tab {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:visited .tab {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+a:hover .tab {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #B5E3ED;
+}
+
+a:active .tab {
+  color: #FFFFFF;
+  background-color: #E0EAED;
+}
+
+
+
+.t {
+  border: solid 0px green;
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.t a:link {
+  text-decoration: none;
+  color: #0089BD;
+}
+
+.t a:visited {
+  text-decoration: none;
+  color: #1B617A;
+}
+
+.t a:hover {
+  text-decoration: underline;
+  color: #0089BD
+}
+
+.t a:active {
+  color: #1B617A
+}
+
+.tag a:link {
+  text-decoration: none;
+  color: #0089BD
+}
+
+.tag a:visited {
+  text-decoration: none;
+  color: #1B617A
+}
+
+.tag a:hover {
+  text-decoration: underline;
+  color: #0089BD
+}
+
+.tag a:active {
+  color: #1B617A
+}
+
+.result p {
+  border: solid 0px red;
+  font-size: 12px;
+  margin-bottom: 3px;
+  color: #1A1A1A;
+}
+
+.url {
+  border: solid 0px blue;
+  font-size: 13px;
+  color: #94866E;
+  text-decoration: none;
+}
+
+.tag {
+  white-space: nowrap;
+  font-size: 10px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+.resultimage {
+  float: right;
+  padding-top: 15px;
+}
+
+
+
+#smalltext {
+  font-size: smaller;
+}
+
+#smalltext a:link {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+#smalltext a:visited {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+#smalltext a:hover {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+#smalltext a:active {
+  text-decoration: none;
+  color: #BBBBBB;
+}
+
+
+#tagline {
+  clear: both; /* slind: removed bold */
+  padding-top: 10px;
+  line-height: 1.4em; /* slind: bumped up line height */
+}
+
+#download {
+  font-weight: 100;
+  color: #DDDDDD;
+  text-decoration: none;
+}
+
+#download a:link {
+  text-decoration: none;
+  color: #0089BD
+}
+
+/* slind: changed link color */
+#download a:visited {
+  text-decoration: none;
+  color: #1B617A
+}
+
+#download a:hover {
+  text-decoration: underline;
+  color: #0089BD
+}
+
+#download a:active {
+  color: #1B617A
+}
+
